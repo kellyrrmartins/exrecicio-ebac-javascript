@@ -1,0 +1,15 @@
+{
+  "name": "exrecicio-ebac-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercicio-mdc.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.4.3"
+  }
+}

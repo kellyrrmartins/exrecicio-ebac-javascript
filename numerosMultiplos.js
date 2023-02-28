@@ -1,20 +1,17 @@
-
-
-function somar(limite) {
+function somarMultiplos(valor1, valor2, limite) {
   let multiplosDe5 = 0
   let multiplosDe7 = 0
-
+  let result
 
   for (let i = 0; i < limite; i++) {
-    if (i % 3 === 0) {
+    if (i % valor1 === 0) {
       multiplosDe5 += i
-    } else if (i % 5 === 0) {
+    } else if (i % valor2 === 0) {
       multiplosDe7 += i
     }
   }
-
-
-  console.log(multiplosDe5 + multiplosDe7)
+  result = multiplosDe5 + multiplosDe7
+  return result
 }
-
-somar(1000)
+console.log(somarMultiplos(5, 7, 1000))
+module.exports = { somarMultiplos }
